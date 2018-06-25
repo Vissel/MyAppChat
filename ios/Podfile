@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MyChatApp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MyChatApp
+
+  pod 'Firebase/Core'
+
+end
+
+target 'MyChatApp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MyChatApp-tvOS
+
+  target 'MyChatApp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

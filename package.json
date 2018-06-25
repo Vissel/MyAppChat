@@ -21,6 +21,9 @@
     "eslint-plugin-standard": "^3.1.0",
     "react": "16.3.1",
     "react-native": "0.55.4",
+    "react-native-card-view": "0.0.3",
+    "react-native-firebase": "^4.2.0",
+    "react-navigation": "^2.5.1",
     "tslint": "^5.10.0",
     "typescript": "^2.8.3"
   },
